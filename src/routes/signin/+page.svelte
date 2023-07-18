@@ -1,3 +1,7 @@
+<script>
+    // Sign-in page will be seperate from Sign-up for now, in the future I would like to have one form that can toggle between the two...
+</script>
+
 <main class="flex h-screen justify-center items-center">
     <form class="shadow-md rounded-md w-1/4 p-8 bg-neutral-800" method="POST">
         <h2 class="text-center text-2xl text-neutral-100">Sign In</h2>
