@@ -1,5 +1,7 @@
 {
-	"/": [],
+	"/": [
+		"src/routes/+page.server.ts"
+	],
 	"/signin": [
 		"src/routes/signin/+page.server.ts"
 	]
