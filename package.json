@@ -24,7 +24,6 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@libsql/client": "^0.3.0",
 		"drizzle-orm": "^0.27.2"
 	}
 }

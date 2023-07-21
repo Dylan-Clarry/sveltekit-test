@@ -1,6 +1,7 @@
 <script>
     import { addTodo, deleteTodo, toggleTodoCompleted } from "../stores/todoStore";
     import { todos } from "../stores/todoStore";
+    import Navbar from "../components/Navbar.svelte";
 
     let todo = "";
 
@@ -10,6 +11,8 @@
         console.log("submitting");
     }
 </script>
+
+<Navbar></Navbar>
 
 <div class="container mx-auto my-6 max-w-lg">
     <div class="flex flex-col">
