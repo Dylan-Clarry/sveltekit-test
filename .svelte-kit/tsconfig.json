@@ -6,6 +6,12 @@
 			],
 			"$lib/*": [
 				"../src/lib/*"
+			],
+			"$trpc": [
+				"../src/trpc"
+			],
+			"$trpc/*": [
+				"../src/trpc/*"
 			]
 		},
 		"rootDirs": [
