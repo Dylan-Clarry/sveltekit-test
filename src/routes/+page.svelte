@@ -3,7 +3,7 @@
 
     let welcome: ProcedureReturnType<typeof browserClient.welcome.query>;
     (async function() {
-        welcome = await browserClient.welcome.query();
+        welcome = await browserClient.welcomeName.mutate({ name: "Dylan" });
     })()
 </script>
 
